@@ -3,6 +3,7 @@ import java.util.List;
 /**@author Aleksa*/
 public class TableFromLists {
 	
+	/**(general)formater with custom width*/
 	public static String rowFormater(List<String> list, int j) {
 		String line = "| ";
 		for(int i = 0; i < list.size(); i++) {
@@ -30,7 +31,7 @@ public class TableFromLists {
 		formaterRowPrinter(list, 15);
 	}
 	
-	/**printer with costume width*/
+	/**printer with custom width*/
 	public static void formaterRowPrinter(List<String> list, int j) {
 		System.out.println(rowFormater(list, j));
 	}
