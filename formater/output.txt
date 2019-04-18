@@ -1,0 +1,15 @@
+| NAME            | SCORE           |
+| --------------- | --------------- |
+| Thomas          |          145.00 |
+| John            |          725.00 |
+| Алексей         |          748.00 |
+*default width
+
+| Number     | Name       | Country    |
+| ---------- | ---------- | ---------- |
+|       5.00 | Thomas     | France     |
+|       3.00 | John       | Germany    |
+|       7.00 | Алексей    | Russia     |
+*width = 10
+
+*Made for work with streams and parsing data as table like this
